@@ -1,0 +1,8 @@
+---
+- hosts: all
+  name: mirasuta
+  become: yes
+  gather_facts: no
+  tasks: 
+    - name: this is test
+      service: Apache

@@ -6,3 +6,6 @@
   tasks: 
     - name: this is test
       service: Apache
+      
+    - name: マスターとの差分を表示
+      
